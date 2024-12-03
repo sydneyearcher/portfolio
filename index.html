@@ -255,163 +255,60 @@
       </button>
     </div>
 
-
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <h2 class="fw-normal">Object Oriented Design</h2>
-          <p>Take a look at my work using Object Oriented Design and React Elements.</p>
-          <p><a class="btn btn-secondary" href="#featurette1">View Project&raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <h2 class="fw-normal">React Components & JSX</h2>
-          <p>A project I created with React and JSX.</p>
-          <p><a class="btn btn-secondary" href="#featurette2">View Project &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <h2 class="fw-normal">React Native & Expo</h2>
-          <p>A To Do List app I created using React Native & Expo</p>
-          <p><a class="btn btn-secondary" href="#featurette3">View Project &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette" id="featurette1">
-        <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">Object Oriented Design <span class="text-body-secondary">using
-              classroom repository.</span></h2>
-          <p class="lead">Here I used my classroom github repostiroy to create a To Do menu that allows the user to add
-            new items along with filtering and searching items.</p>
-        </div>
-        <div class="col-md-5">
-          <video class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" controls>
-            <!-- Check and adjust the src path as needed -->
-            <source src="./media/ex6.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette" id="featurette2">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">React Menu. <span class="text-body-secondary">A data driven
-                menu</span></h2>
-            <p class="lead">This project is built on previous exercises to create a data-driven menu page using React. I
-              created a react component that accepts a property following a data structure.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <video class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" controls>
-              <!-- Check and adjust the src path as needed -->
-              <source src="./media/menu.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
+<main>
+  <!-- Carousel Section -->
+  <section id="carousel-section">
+    <h1 class="visually-hidden">Portfolio Highlights</h1> <!-- Add a hidden heading for better structure -->
+    <div id="myCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgs/caroback.jpg" class="d-block w-100" alt="Slide 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Explore My GitHub</h2>
+            <p>Click below to take a look at some of the source code for projects I have participated in during my academic career.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://github.com/sydneyearcher" target="_blank" role="button">GitHub</a></p>
           </div>
         </div>
-
-        <hr class="featurette-divider" id="featurette3">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">Exercise App in React. <span class="text-body-secondary">Using
-                JSX Components.</span></h2>
-            <p class="lead">A menu that allows the user to select a repitition or duration type of exercise using a
-              ternary operator to determine whether a component is displayed within a JSX element.</p>
-          </div>
-          <div class="col-md-5">
-            <video class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" controls>
-              <!-- Check and adjust the src path as needed -->
-              <source src="./media/exercise.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette" id="featurette2">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Expo To Do List <span class="text-body-secondary">using
-                previous design prototypes.</span></h2>
-            <p class="lead">An app that provides an interface for users to add and complete tasks using packages and
-              dependencies along with the FlatList components provided by React Native.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <video class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" controls>
-              <!-- Check and adjust the src path as needed -->
-              <source src="./media/ex7.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-        <hr class="featurette-divider">
-
-        <div class="row featurette" id="featurette4">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">Interactive App Prototype <span
-                class="text-body-secondary">with Figma and Canva Elements.</span></h2>
-            <p class="lead">In this section, I wanted to highlight a class project completed last semester. The two
-              links below contain our high-fidelity prototype along with our final app presentation, which includes the
-              information architecture, data dictionary, task analysis, think-aloud protocols, user survey data, and
-              more.</p>
-            <p class="lead">
-              <a href="https://ucf-my.sharepoint.com/:p:/r/personal/ti831318_ucf_edu/Documents/Spring%2024/DIG%203811/Final%20Presentation-%20ConnecTrail.pptx?d=wf133922e58384058bc7f4bef2f129d72&csf=1&web=1&e=fnXMrY"
-                class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                View Final Presentation &raquo;
-              </a>
-            </p>
-            <p class="lead">
-              <a href="https://www.figma.com/proto/oIUWlViM0iBe2tGAnP26N4/Lab-10--High-Fidelity-Prototypes-(Testing)?node-id=2032-1625&node-type=canvas&t=Ww5VOBcNEsMvxXjG-0&scaling=scale-down&content-scaling=fixed&page-id=2032%3A474&starting-point-node-id=2032%3A1625"
-                class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                View High-Fidelity Prototype &raquo;
-              </a>
-            </p>
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-
+        <!-- Additional slides here -->
       </div>
-      <!-- /.container -->
+    </div>
+  </section>
 
+  <!-- Marketing Section -->
+  <section id="marketing-section" class="container marketing">
+    <h2>My Projects</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Object Oriented Design</h3>
+        <p>Take a look at my work using Object Oriented Design and React Elements.</p>
+        <p><a class="btn btn-secondary" href="#featurette1">View Project &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <h3>React Components & JSX</h3>
+        <p>A project I created with React and JSX.</p>
+        <p><a class="btn btn-secondary" href="#featurette2">View Project &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <h3>React Native & Expo</h3>
+        <p>A To-Do List app I created using React Native & Expo.</p>
+        <p><a class="btn btn-secondary" href="#featurette3">View Project &raquo;</a></p>
+      </div>
+    </div>
+  </section>
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p>&copy; 2017–2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-  </main>
+  <!-- Featurettes -->
+  <section id="featurettes">
+    <div id="featurette1">
+      <h2>Object Oriented Design</h2>
+      <p>Here I used my classroom GitHub repository to create a To-Do menu that allows the user to add, filter, and search items.</p>
+    </div>
+    <div id="featurette2">
+      <h2>React Menu</h2>
+      <p>This project builds on previous exercises to create a data-driven menu page using React components.</p>
+    </div>
+  </section>
+</main>
+   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
